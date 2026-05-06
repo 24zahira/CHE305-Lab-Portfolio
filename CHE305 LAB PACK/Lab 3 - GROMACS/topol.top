@@ -1,0 +1,16 @@
+; --- Force field and ligand includes ---
+#include "oplsaa.ff/forcefield.itp"
+#include "paracetamol.itp"
+
+; If using SPC/E water (matches spc216.gro), include its definition:
+#include "oplsaa.ff/spce.itp"
+
+; --- System title ---
+[ system ]
+Paracetamol in water (OPLS-AA / SPC/E)
+
+; --- Molecule counts (this must be the last section) ---
+[ molecules ]
+UNK    1
+
+SOL               541
